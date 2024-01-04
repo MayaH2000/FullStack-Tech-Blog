@@ -1,6 +1,6 @@
 /* Add CSS for the background image */
 body, html {
-    background-image: url('./../../Images/login.jpg');
+    background-image: url('/Users/maya/bootcamp/FullStack-Tech-Blog/Images/FD0A9FCE-0A68-47E6-B773-B688AF19F23E.JPG');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

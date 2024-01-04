@@ -1,0 +1,62 @@
+/* Add CSS for the background image */
+body {
+    background-image: url('/Users/maya/bootcamp/FullStack-Tech-Blog/Images/4E73D5DF-D520-4508-ACBA-0BED849FE89F.JPG');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the top navigation bar */
+.top-nav {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+}
+
+/* Style for the user profile section */
+.user-profile {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the blog posts section */
+.blog-posts {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add more specific styles for user profile and blog posts as needed */
