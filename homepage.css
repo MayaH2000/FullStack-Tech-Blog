@@ -28,20 +28,6 @@ body {
     margin-left: 50px;
   }
   
-  
-  /* Style for the VANMosaic text */
-.van-mosaic {
-  color: white; /* Set text color to white */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
-  background-color: transparent;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 30%;
-  font-family: 'Days One', sans-serif;
-  font-size: 70px;
-}
 
   
   
@@ -70,40 +56,45 @@ body {
       'GRAD' 20, 
       'opsz' 25px;
   }
-  
-  /* Style for the right navigation bar */
-  .right-navbar {
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    position: absolute;
-    top: 10px;
-    right: 10px; 
-    width: 200px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-  }
-  
-  /* Style for the navbar links */
-  .navbar-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navbar-links li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-links a {
-    display: block;
-    padding: 10px 20px; 
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
-  .navbar-links a:hover {
-    background-color: #eee;
-  }
-  
+ /* Style for the login navbar */
+.login-navbar {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%; /* Move it to the vertical center */
+  left: 50%; /* Move it to the horizontal center */
+  transform: translate(-50%, -50%); /* Center it precisely */
+  width: 300px; /* Increase the width as needed */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s; /* Add a smooth background color transition */
+}
+
+/* Style for the navbar links */
+.navbar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  display: block;
+  padding: 15px 30px; /* Increase padding for larger size */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px; /* Increase font size */
+  transition: background-color 0.3s; /* Add a smooth background color transition */
+  background-color: #eee; /* Solid display block behind the links */
+  border-radius: 5px; /* Add some border radius for a rounded look */
+  margin-bottom: 10px; /* Add spacing between links */
+}
+
+.navbar-links a:hover {
+  background-color: #ddd; /* Hover background color */
+}
